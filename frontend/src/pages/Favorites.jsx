@@ -6,7 +6,6 @@ function Favorites() {
     const {favorites} = useMovieContext()
 
     if (favorites){
-        console.log("Favorites:", favorites);
         return <div className = "favorites">
             <h2>Your Favorites</h2>
             <div className = "movies-grid">
